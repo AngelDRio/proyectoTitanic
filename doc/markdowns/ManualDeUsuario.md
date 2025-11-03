@@ -178,6 +178,6 @@ mvn clean test
 
 A continuación se muestra una captura de la terminal del proyecto indicando el éxito de la ejecución de los tests realizados para este proyecto.
 
-![Imagen no disponible](../src/main/resources/imagenes/comprobanteTests.png)
+![Imagen no disponible](../../src/main/resources/imagenes/comprobanteTests.png)
 
 

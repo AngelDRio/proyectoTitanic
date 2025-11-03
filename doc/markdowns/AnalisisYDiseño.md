@@ -29,7 +29,7 @@ Cada bote, en total habrá 20 de estos, recoge un número variable de personas (
 
 A continuación se muestra un enfoque general del proyecto planteando un diseño de solución inicial, en este se muestran dos procesos diferentes: **Titanic** y **Botes**.
 
-![Imagen no disponible](../src/main/resources/imagenes/arquitecturaTitanic.png)
+![Imagen no disponible](../../src/main/resources/imagenes/arquitecturaTitanic.png)
 
 
 ### Componentes
@@ -38,49 +38,49 @@ A continuación se muestra cada componenete del proyecto que se va a diseñar de
 
 **Clase Titanic.**
 
-![Imagen no disponible](../src/main/resources/imagenes/AppTitanic.png)
+![Imagen no disponible](../../src/main/resources/imagenes/AppTitanic.png)
 
 ---
 
 **Clase ServicioEmergencia.**
 
-![Imagen no disponible](../src/main/resources/imagenes/ServicioEmergencia.png)
+![Imagen no disponible](../../src/main/resources/imagenes/ServicioEmergencia.png)
 
 ---
 
 **Clase CreadorBote.**
 
-![Imagen no disponible](../src/main/resources/imagenes/CreadorBote.png)
+![Imagen no disponible](../../src/main/resources/imagenes/CreadorBote.png)
 
 ---
 
 **Clase BoteData.**
 
-![Imagen no disponible](../src/main/resources/imagenes/Botedata.png)
+![Imagen no disponible](../../src/main/resources/imagenes/Botedata.png)
 
 ---
 
 **Clase FormatoMarkdown.**
 
-![Imagen no disponible](../src/main/resources/imagenes/FormatoMarkdown.png)
+![Imagen no disponible](../../src/main/resources/imagenes/FormatoMarkdown.png)
 
 ---
 
 **Clase FormatoInforme.**
 
-![Imagen no disponible](../src/main/resources/imagenes/FormatoInforme.png)
+![Imagen no disponible](../../src/main/resources/imagenes/FormatoInforme.png)
 
 ---
 
 **Enumeración TipoFormato.**
 
-![Imagen no disponible](../src/main/resources/imagenes/TipoFormato.png)
+![Imagen no disponible](../../src/main/resources/imagenes/TipoFormato.png)
 
 ---
 
 **Clase GeneradorInforme.**
 
-![Imagen no disponible](../src/main/resources/imagenes/GeneradorInforme.png)
+![Imagen no disponible](../../src/main/resources/imagenes/GeneradorInforme.png)
 
 ---
 
@@ -90,10 +90,10 @@ Habiendo diseñado cada componente previamente, a continuación se muestra como 
 
 Servicio de emergencias y el proceso botes:
 
-![Imagen no disponible](../src/main/resources/imagenes/relacionesBotes.png)
+![Imagen no disponible](../../src/main/resources/imagenes/relacionesBotes.png)
 
 Servicio de emergencias y la generación de informes:
 
-![Imagen no disponible](../src/main/resources/imagenes/relacionesInforme.png)
+![Imagen no disponible](../../src/main/resources/imagenes/relacionesInforme.png)
 
 ---
