@@ -23,9 +23,7 @@ public class ServicioEmergencia {
 
     private static final String TIPO_ARCHIVO_MARKDOWN = ".md";
     private static final String TIPO_ARCHIVO_HTML = ".html";
-    private static final String RUTA_INFORME = "src/main/resources/informe" + TIPO_ARCHIVO_HTML;
-
-    private static final String MSG_ERROR_BOTE = "El proceso del bote %s terminó con error (%s)";
+    private static final String RUTA_INFORME = "src/main/resources/informeFinal/informe" + TIPO_ARCHIVO_MARKDOWN;
 
     public void lanzarSimulacion() throws Exception {
 
@@ -41,7 +39,7 @@ public class ServicioEmergencia {
         }
 
         // Usamos el generador de informes con el formato MARKDOWN
-        GeneradorInforme generador = new GeneradorInforme(TipoFormato.HTML);
+        GeneradorInforme generador = new GeneradorInforme(TipoFormato.MARKDOWN);
         generador.generarInforme(RUTA_INFORME, idsBotes, datosBotes);
     }
 
@@ -52,11 +50,6 @@ public class ServicioEmergencia {
         BoteData datos;
         try (ObjectInputStream in = new ObjectInputStream(proceso.getInputStream())) {
             datos = (BoteData) in.readObject();
-        }
-
-        int codigo = proceso.waitFor();
-        if (codigo != 0) {
-            System.err.println(String.format(MSG_ERROR_BOTE, id, codigo));
         }
 
         return datos;
